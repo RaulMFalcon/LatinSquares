@@ -1,4 +1,4 @@
-# LatinSquares 
+# #############################################################################################################################################################################
 # Version="$Id: LatinSquares 2023-16-01$";
 # category="Latin squares";
 # info="
@@ -15,3 +15,4 @@
 #   HLT.m     Generate the set of Latin squares containing a given partial Latin square and whose successive Hadamard quasigroup products preserve the Latin square property.   
 #   LS.m      Generate the set of Latin squares containing a partial Latin square.
 #   PLT.m     Generate the set partial Latin squares that result after filling the cells of a transversal, with at least one empty cell, in a partial Latin square.
+# #############################################################################################################################################################################
