@@ -59,8 +59,6 @@ function L = HL(P)
                 for i=1:size(C,2)
                     L{size(L,2)+1}={C{i},T};
                 end
-            else
-                L1{size(L1,2)+1}=Q;
             end
         end
     end
