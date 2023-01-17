@@ -55,10 +55,8 @@ function L = HL(P)
             L1{size(L1,2)+1}=Q;
         else
             C=PLT(Q,T);
-            if size(C,2)>0
-                for i=1:size(C,2)
-                    L{size(L,2)+1}={C{i},T};
-                end
+            for i=1:size(C,2)
+                L{size(L,2)+1}={C{i},T};
             end
         end
     end
