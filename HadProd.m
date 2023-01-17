@@ -18,6 +18,8 @@ function H = HadProd(P,Q,L)
 %    January 16, 2023
 %    Dpt. Applied Mathematics I.
 %    University of Seville, Spain.
+
+% Construct the Hadamard product.
     n=size(P,1);
     for i=1:n
         for j=1:n
