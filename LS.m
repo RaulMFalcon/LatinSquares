@@ -3,6 +3,8 @@ function [List_L]=LS(P)
 %    L = LS(P) returns the list of Latin squares to which the partial Latin
 %    square P is completable.
 %
+%    Example: celldisp(LS([2 0 0 0; 0 1 0 0; 0 0 4 0; 0 0 0 3]))
+%
 %    [1] V. Álvarez, J.A. Armario, R.M. Falcón, M.D. Frau, F. Gudiel and
 %        M.B. Güemes. A computational approach to analyze the Hadamard 
 %        quasigroup product. Submitted, 2023.
