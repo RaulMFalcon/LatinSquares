@@ -6,6 +6,9 @@ function List_Q=PLT(P,T)
 %      result after filling the cell of a transversal T in a partial 
 %      Latin square.
 %
+%     Example:
+%     celldisp(PLT([2 0 0 0; 0 1 0 0; 0 0 4 0; 0 0 0 3],[1 2;2 1;3 4;4 3]))
+%
 %    [1] V. Álvarez, J.A. Armario, R.M. Falcón, M.D. Frau, F. Gudiel and
 %        M.B. Güemes. A computational approach to analyze the Hadamard 
 %        quasigroup product. Submitted, 2023.
