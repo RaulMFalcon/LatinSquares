@@ -19,6 +19,7 @@ function L=Isom(L1,L2)
 % Construct an ideal associated to the Latin squares L1 and L2, whose 
 % algebraic set can be identified with the set of isomorphism between L1
 % and L2.
+    L={};
     n=size(L1,1);
     syms x [n];
     s=0;
